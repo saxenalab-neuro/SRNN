@@ -1,4 +1,4 @@
-# TV_RNN
+# Switching Recurrent Neural Networks
 
 This repo is about the work of Switching Recurrent Neural Networks (SRNNs). Publication available at: 
 
