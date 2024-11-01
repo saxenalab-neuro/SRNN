@@ -69,7 +69,7 @@ def eval_(model,rnninfer,X_test,y_test,device):
 
 def compute_metric(y_train,y_pred_train,pos_train,beh_labels):
     mse_=mean_squared_error(y_pred_train.reshape(-1,y_pred_train.shape[2]),y_train.cpu().detach().numpy().reshape(-1,y_train.shape[2]))
-    if beh_labels!=None:
+    if beh_labels is not None:
         error_=compute_error(np.argmax(pos_train,axis=-1),beh_labels)
     else:
         error_=np.ones(2)
