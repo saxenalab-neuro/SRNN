@@ -44,5 +44,5 @@ class RNNInfer(nn.Module):
             sampled_h_=mean_out_+ep[:,None,:]*covariance_matrix.diag() # reparameterization trick in order to compute gradients
             sampled_h[:,i,:]=sampled_h_[:,0,:]
             mean_out[:,i,:]=mean_out_[:,0,:]
-        infer_dist=torch.distributions.multivariate_normal.MultivariateNormal(mean_out[0], covariance_matrix) # we need this distribution to compute the entropy in our loss
+        infer_dist=torch.distributions.multivariate_normal.MultivariateNormal(mean_out, covariance_matrix) # we need this distribution to compute the entropy in our loss
         return infer_dist,sampled_h,mean_out
