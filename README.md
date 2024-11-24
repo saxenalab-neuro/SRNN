@@ -1,6 +1,6 @@
 # Switching Recurrent Neural Networks
 
-This repo is about the work of Switching Recurrent Neural Networks (SRNNs). Publication available at: 
+This repo is about the work of Switching Recurrent Neural Networks (SRNNs). Publication available at: [Inference of neural dynamics using switching recurrent neural networks](https://openreview.net/pdf/a72b19b658dbec5e7192f749e9871e5279caf5ab.pdf)
 
 # Installation for Development
 
