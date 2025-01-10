@@ -14,7 +14,7 @@ conda env create --file environment_srnn.yml
 conda activate SwitchingRNN
 ```
 3. If environment is not built successfully, do 'pip install'+all missed packages, they are common packages in this experiment. 
-4. ```python demo_lorenz.py``` (example running) 
+4. ```python 1_demo_lorenz.py``` (example running) 
 5. or open demo_lorenz.ipynb
 
 # Details
