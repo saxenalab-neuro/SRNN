@@ -30,7 +30,7 @@ class RNNInfer(nn.Module):
         h0=torch.zeros([1,batches,self.hidden_shape],device=device)
         f_out,_=self.forward_rnn(y_train,h_f0) # forward pass
         b_out,_=self.backward_rnn(torch.flip(y_train,dims=(1,)),h_b0) # backward pass
-        bi_output=f_out+b_out # bidirectional output
+        bi_output=f_out+torch.flip(b_out,dims=(1,)) # bidirectional output
         mean_out=torch.zeros((batches,y_train.shape[1],self.hidden_shape),device=device)
         sampled_h=torch.zeros((batches,y_train.shape[1],self.hidden_shape),device=device)
         h_last=h0
