@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "SRNN: Switching Recurrent Neural Networks"
+message: "If you use this software, please cite the associated paper below."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yongxu
+  - family-names: Saxena
+    given-names: Shreya
+    affiliation: "Yale University"
+repository-code: "https://github.com/saxenalab-neuro/SRNN"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Inference of Neural Dynamics Using Switching Recurrent Neural Networks"
+  authors:
+    - family-names: Zhang
+      given-names: Yongxu
+    - family-names: Saxena
+      given-names: Shreya
+  conference:
+    name: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2024
+  url: "https://openreview.net/pdf?id=zb8jLAh2VN"
