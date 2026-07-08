@@ -21,7 +21,7 @@ Official implementation of **Switching Recurrent Neural Networks (SRNNs)** — a
 | `0_demo_lorenz*.ipynb` | Walk-through notebooks fitting an SRNN to a Lorenz attractor under different initializations. |
 | `1_demo_lorenz.py` | Same Lorenz demo as a runnable script. |
 | `1_demo_analysis.ipynb` | Post-fit analysis of inferred switching regimes. |
-| `2_demo_area2_single.ipynb` | Single-trial demo for [area2 bump data] (https://elifesciences.org/articles/48198) from [neural latent benchmark](https://github.com/neurallatents/neurallatents.github.io/blob/master/notebooks/area2_bump.ipynb). |
+| `2_demo_area2_single.ipynb` | Single-trial demo for [area2 bump data](https://elifesciences.org/articles/48198) from [neural latent benchmark](https://github.com/neurallatents/neurallatents.github.io/blob/master/notebooks/area2_bump.ipynb). |
 | `2_demo_analysis_area2.ipynb` | Post-fit analysis of inferred switching regimes for single-trial model. |
 | `environment_srnn.yml` | Conda environment specification. |
 
@@ -55,7 +55,7 @@ For analysis of a fitted model (inferred regimes, switching dynamics, reconstruc
 
 ## Model fit on single-trial data
 
-Run the demo for single-trial data: [area2 bump data] (https://elifesciences.org/articles/48198):
+Run the demo for single-trial data: [area2 bump data](https://elifesciences.org/articles/48198):
 
 ```bash
 jupyter notebook 2_demo_area2_single.ipynb
