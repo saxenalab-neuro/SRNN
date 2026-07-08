@@ -63,6 +63,10 @@ jupyter notebook 2_demo_area2_single.ipynb
 
 For analysis of a fitted model , open `2_demo_analysis_area2.ipynb`.
 
+## Supervised SRNN
+
+We also implemented a supervised SRNN incorporating predefined switches: https://github.com/saxenalab-neuro/Supervised_SRNN/tree/main
+
 ## Citation
 
 If you use SRNN in your research, please cite:
